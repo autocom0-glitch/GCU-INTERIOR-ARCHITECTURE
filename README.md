@@ -14,13 +14,13 @@
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      background-color: #121212;
+      background-color: #ffffff; /* 흰색 배경으로 변경 */
     }
     .photo-container img {
       max-width: 90vw;
       max-height: 85vh;
       border-radius: 12px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* 흰 배경에 어울리는 은은한 그림자 */
       object-fit: contain;
     }
   </style>
@@ -28,7 +28,7 @@
 <body>
   <div class="photo-container">
     <!-- KakaoTalk_20260821_033809307.png -->
-    <img src="KakaoTalk_20260821_033809307.png" alt="사진">
+    <img src="KakaoTalk_20260821_033809307.png" alt="포스터">
   </div>
 </body>
 </html>
