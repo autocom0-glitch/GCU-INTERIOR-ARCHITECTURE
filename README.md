@@ -1,3 +1,34 @@
 # GCU-INTERIOR-ARCHITECTURE
 가천대학교 실내건축학과 온라인 전시장 임시 페이지입니다.
-KakaoTalk_20260821_033809307.png
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>사진 보기</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #121212;
+    }
+    .photo-container img {
+      max-width: 90vw;
+      max-height: 85vh;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <div class="photo-container">
+    <!-- KakaoTalk_20260821_033809307.png -->
+    <img src="KakaoTalk_20260821_033809307.png" alt="사진">
+  </div>
+</body>
+</html>
